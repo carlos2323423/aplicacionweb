@@ -1,0 +1,6 @@
+@include('layouts.header')
+@include('layouts.niveles')
+@yield('paginaMenu')
+@yield('index')   
+@yield('content')   
+@include('layouts.footer')
